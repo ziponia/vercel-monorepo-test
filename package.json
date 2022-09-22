@@ -1,0 +1,14 @@
+{
+  "name": "test-vercel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "packageManager": "yarn@3.2.3",
+  "scripts": {
+    "build": "yarn workspace frontend run build",
+    "start": "yarn workspace frontend run start"
+  },
+  "workspaces": [
+    "frontend"
+  ]
+}
